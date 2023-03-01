@@ -3985,6 +3985,41 @@ section {
 }
 
 
+@media screen and (max-width: 1200px) {
+    
+    .blog-page-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-content {
+        width: min(100%, 800px);
+    }
+
+    .blog-contact {
+        margin-top: 50px;
+        width: min(100%, 800px);
+    }
+
+    .blog-text {
+        padding-right: 0;
+    }
+
+    .recent-post .top-row {
+        justify-content: flex-start;
+        gap: 25px;
+    }
+
+    .top-row span {
+        max-width: 300px;
+    }
+
+    .blog-page-img-wrap {
+        height: 520px;
+        width: 100%;
+    }
+}
+
 
 
 /* About us page */
